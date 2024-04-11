@@ -29,6 +29,7 @@ h1{
     align-items: center;
     padding: 3rem;
     opacity: 1;
+    transition: 2s;
     color: white;
 }
 
