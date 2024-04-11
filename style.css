@@ -11,7 +11,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: #1e2337;
+    background: #1e2337;
 }
 
 h1{
@@ -50,4 +50,18 @@ h1{
 
 .btn.btn-deny{
     background-color: gray;
+}
+
+
+
+.jour{
+    position: fixed;
+    top: 15rem;
+    left: 50%;
+    color:black;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: gray;
+    color: white;
 }

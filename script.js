@@ -14,3 +14,20 @@ console.log("bouton cliquer");
 cookies.style.opacity = "0";
 titre.style.color = "green";
 })
+
+////////////////////test///////////////////
+
+const jour = document.querySelector(".jour");
+console.log(jour);
+const container = document.querySelector(".container");
+
+jour.addEventListener("click", ()=>{
+    // container.style.background = "white";
+    if ( container.style.background !=  "white") {
+        container.style.background = "white";
+        titre.innerHTML = "JOUR";
+    } else {
+        container.style.background = "black";
+        titre.innerHTML = "NUIT";
+    }
+})
